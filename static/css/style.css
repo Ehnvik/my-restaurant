@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #ad8265;
+    background-color: rgba(97, 97, 97, 0.8)
 }
 
 .ui-home-color-home {
@@ -55,16 +55,6 @@ header {
     margin-left: 50px;
 }
 
-.logo {
-    background: url("../images/strawberry-logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
 
 .name {
     font-family: "Exo", sans-serif;
@@ -74,12 +64,12 @@ header {
     color: #fff;
 }
 
-.title {
+.slogan {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     color: #fff;
 }
 
@@ -139,3 +129,53 @@ header {
 }
 
 /* ----------------------------------------Footer */
+
+footer {
+    background-color: rgba(97, 97, 97, 0.8);
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #c75b14;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #c75b14;
+}
+
+#footer-details {
+    padding: 20px;
+}
