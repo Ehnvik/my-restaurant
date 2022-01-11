@@ -1,6 +1,17 @@
 {% extends "base.html" %}
 {% block content1 %}
-<h1>Home Page</h1>
+<!---Hero Section-->
+<section id="hero">
+    <div class="hero-container">
+        <div class="hero-logo">
+            <h1 class="font-weight-bold">Welcome to The Strawberry</h1>
+        </div>
+        <h2 class="font-weight-bold">For hungry people</h2>
+        <div class="actions">
+            <a href="{{ url_for('book_table') }}"class="btn-get-started">Book Table</a>
+        </div>
+    </div>
+</section>
 {% endblock %}
 
 {% block content2 %}

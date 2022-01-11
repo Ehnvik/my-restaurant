@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: rgba(97, 97, 97, 0.8)
+    background-color: rgb(97, 97, 97);
 }
 
 .ui-home-color-home {
@@ -128,10 +128,88 @@ header {
     height: 120px;
 }
 
+/*--------------------------------------------Hero.css*/
+
+#hero{
+    display:table;
+    width: 100%;
+    height: 60vh;
+    background: url(/static/images/strawberry-bg.jpg) top center;
+    background-size: cover;
+}
+@media (min-width: 1024px){
+    #hero{
+        background-attachment: fixed;
+    }
+}
+
+#hero .hero-logo{
+    margin: 20px;
+    max-width: 100%;
+}
+#hero .hero-container{
+    background: rgba(0,0,0,0.2);
+    display: table-cell;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    vertical-align: middle;
+}
+#hero h1{
+    margin: 30px 0 10px 0;
+    font-weight: bold;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Exo", sans-serif;
+}
+@media (max-width: 768px){
+    #hero h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+#hero h2{
+    color: #fff;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+}
+@media (max-width: 768px){
+    #hero h2{
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    
+}
+#hero .actions a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 10px;
+}
+#hero .btn-get-started{
+    background: rgba(97, 97, 97, 0.8);
+    border: 2px solid rgb(97, 97, 97);
+    color: #fff;
+    font-family: "Exo", sans-serif;
+}
+#hero .btn-get-started:hover{
+    background: #c75b14;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: rgba(97, 97, 97, 0.8);
+    background-color: rgb(97, 97, 97);
     color: #fafafa;
     min-height: 120px;
     margin: 0;
