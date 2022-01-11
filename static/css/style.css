@@ -206,6 +206,35 @@ header {
     text-decoration: none;
 }
 
+/*--------------------------------------------food-menu.css*/
+
+.food-menu-title {
+    font-family: "Exo", sans-serif;
+    padding-bottom: 25px;
+}
+
+.variety{
+    padding-bottom: 40px;
+}
+.variety .card{
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+    background: transparent;
+}
+.variety .card-img{
+    width: calc(100% + 60px);
+    margin-left:-30px;
+    overflow: hidden;
+    z-index: 9;
+    border-radius: 0;
+}
+.variety .card-img img{
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
 /* ----------------------------------------Footer */
 
 footer {
