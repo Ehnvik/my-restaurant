@@ -110,7 +110,7 @@ header {
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #fafafa;
+    color: #fff;
     font-size: 26px;
 }
 
@@ -250,11 +250,34 @@ h5 {
     transform: scale(1.1);
 }
 
+
+/*--------------------------------------------Contact-Page*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 125px;
+    background-color: #c75b14;
+    color: #fff;
+}
+
 /* ----------------------------------------Footer */
 
 footer {
     background-color: rgb(97, 97, 97);
-    color: #fafafa;
+    color: #fff;
     min-height: 120px;
     margin: 0;
 }
