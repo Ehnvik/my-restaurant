@@ -1,16 +1,15 @@
 function sendMail(contactForm) {
-    emailjs.send("the_strawberry","the_strawberry", {
+    emailjs.send("gmail", "rosie", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "message": contactForm.message.value
     })
     .then(
         function(response) {
-            console.log("Success!", response);
+            console.log("SUCCESS", response);
         },
         function(error) {
-            console.log("Failed!", error);
+            console.log("FAILED", error);
         }
     );
-    return false;
 }
