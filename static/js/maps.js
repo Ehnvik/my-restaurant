@@ -1,16 +1,16 @@
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 14,
+        zoom: 15,
         center: {
-            lat: 54.97474439256173,
-            lng: -1.619282792601715
+            lat: 54.97484762774554,
+            lng: -1.619589856337952
         }
     });
 
     var labels = "A";
 
     var locations = [
-        { lat: 54.97474439256173, lng: -1.619282792601715 }
+        { lat: 54.97484762774554, lng: -1.619589856337952 }
     ];
 
     var markers = locations.map(function(location, i) {
