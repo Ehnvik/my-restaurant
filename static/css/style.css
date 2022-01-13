@@ -253,14 +253,25 @@ h5 {
 
 /*--------------------------------------------Contact-Page*/
 
+.margin-row-find-us {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+
 .find-us {
     font-family: "Exo", sans-serif;
     margin-top: 25px;
 }
 
+.contact-info {
+    padding-right: 25px;
+}
+
 .contact-info h4 {
     padding-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 25px;
     font-family: "Exo", sans-serif;
 }
 
@@ -272,7 +283,7 @@ h5 {
 
 .opening-hours h4 {
     padding-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 25px;
     font-family: "Exo", sans-serif;
 }
 
@@ -285,7 +296,7 @@ h5 {
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -297,7 +308,7 @@ h5 {
 
 button[type="submit"] {
     margin-top: 15px;
-    margin-bottom: 125px;
+    margin-bottom: 75px;
     background-color: #c75b14;
     color: #fff;
 }
